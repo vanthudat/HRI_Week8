@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv-emotion/
+build/
+dist/
+*.egg-info/
+
+.cache/
+
+# LaTeX build intermediates (keep source, PDF and experiment images).
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz

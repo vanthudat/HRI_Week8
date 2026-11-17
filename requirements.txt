@@ -1,0 +1,21 @@
+# Python 3.10 / ROS 2 Humble. PyQt5 được cung cấp bằng apt.
+# Cài trong venv --system-site-packages để dùng rclpy và PyQt5 của hệ thống.
+numpy==1.26.4
+opencv-python==4.11.0.86
+deepface==0.0.93
+tensorflow==2.15.1
+keras==2.15.0
+
+# Pin the pandas/NumPy pair used by DeepFace.
+pandas==2.2.3
+
+# Install explicitly: these can otherwise be picked up from ~/.local in a system-site venv.
+absl-py>=1.0,<3
+flatbuffers>=23.5.26
+opt-einsum>=3.3,<4
+protobuf>=3.20.3,<5
+
+# DeepFace 0.0.93 enables TF_USE_LEGACY_KERAS even on TF 2.15.
+tf-keras==2.15.1
+# Ubuntu SciPy 1.8 is incompatible with NumPy 1.26.
+scipy==1.11.4
